@@ -1,0 +1,299 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "phone": "+242061234567",
+      "name": "Jean M.",
+      "oziki_balance": 49000,
+      "verified": true,
+      "createdAt": "2026-09-01"
+    },
+    {
+      "id": 2,
+      "phone": "+242062345678",
+      "name": "Marie L.",
+      "oziki_balance": 25000,
+      "verified": true,
+      "createdAt": "2026-09-02"
+    },
+    {
+      "id": 3,
+      "phone": "+242063456789",
+      "name": "Paul K.",
+      "oziki_balance": 100000,
+      "verified": true,
+      "createdAt": "2026-09-03"
+    },
+    {
+      "id": 4,
+      "phone": "+242064567890",
+      "name": "Sara B.",
+      "oziki_balance": 15000,
+      "verified": false,
+      "createdAt": "2026-09-05"
+    },
+    {
+      "id": 5,
+      "phone": "+242065678901",
+      "name": "David T.",
+      "oziki_balance": 75000,
+      "verified": true,
+      "createdAt": "2026-09-06"
+    }
+  ],
+  "draws": [
+    {
+      "id": 1,
+      "title": "Poulet Mayo Quotidien",
+      "description": "Gagne ton poulet mayo tous les jours !",
+      "P": 5000,
+      "I": 1,
+      "Wmax": 1,
+      "Utotal": 500,
+      "Ct_XAF": 100,
+      "Ct_Oziki": 1000,
+      "Tpalier": 84,
+      "Tmax": 84,
+      "Wmax_sugg": 1,
+      "Tmax_joueur": 50,
+      "Tvendus": 42,
+      "CA": 4200,
+      "status": "open",
+      "lot_type": "physical",
+      "hash_nzadi": null,
+      "seed_serveur": null,
+      "seed_client": "block_btc_850000",
+      "createdAt": "2026-09-07",
+      "drawAt": null
+    },
+    {
+      "id": 2,
+      "title": "Smartphone Tecno Spark",
+      "description": "Tecno Spark 30C à gagner ce weekend",
+      "P": 150000,
+      "I": 2,
+      "Wmax": 1,
+      "Utotal": 500,
+      "Ct_XAF": 1500,
+      "Ct_Oziki": 15000,
+      "Tpalier": 167,
+      "Tmax": 251,
+      "Wmax_sugg": 1,
+      "Tmax_joueur": 11,
+      "Tvendus": 180,
+      "CA": 270000,
+      "status": "locked",
+      "lot_type": "physical",
+      "hash_nzadi": "a3f9b2c1d4e5f6789012345678901234567890abcdef1234567890abcdef1234",
+      "seed_serveur": null,
+      "seed_client": "block_btc_850001",
+      "createdAt": "2026-09-05",
+      "drawAt": "2026-09-08T18:00:00Z"
+    },
+    {
+      "id": 3,
+      "title": "TV Samsung 32 pouces",
+      "description": "Mensuel — TV Samsung à gagner",
+      "P": 100000,
+      "I": 3,
+      "Wmax": 1,
+      "Utotal": 500,
+      "Ct_XAF": 1150,
+      "Ct_Oziki": 11500,
+      "Tpalier": 145,
+      "Tmax": 290,
+      "Wmax_sugg": 1,
+      "Tmax_joueur": 11,
+      "Tvendus": 290,
+      "CA": 333500,
+      "status": "drawn",
+      "lot_type": "physical",
+      "hash_nzadi": "b4c0d3e2f5a67890123456789012345678901234567890abcdef1234567890",
+      "seed_serveur": "serveur_seed_xyz789",
+      "seed_client": "block_btc_849999",
+      "createdAt": "2026-08-25",
+      "drawAt": "2026-09-05T18:00:00Z",
+      "winner_id": 3
+    },
+    {
+      "id": 4,
+      "title": "Data 1Go — Tirage Flash",
+      "description": "1Go de data MTN à gagner maintenant",
+      "P": 2000,
+      "I": 1,
+      "Wmax": 1,
+      "Utotal": 500,
+      "Ct_XAF": 50,
+      "Ct_Oziki": 500,
+      "Tpalier": 67,
+      "Tmax": 67,
+      "Wmax_sugg": 1,
+      "Tmax_joueur": 100,
+      "Tvendus": 17,
+      "CA": 850,
+      "status": "open",
+      "lot_type": "digital",
+      "hash_nzadi": null,
+      "seed_serveur": null,
+      "seed_client": "block_btc_850002",
+      "createdAt": "2026-09-07",
+      "drawAt": null
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "draw_id": 1,
+      "user_id": 1,
+      "count": 2,
+      "amount_XAF": 200,
+      "amount_Oziki": 2000,
+      "hex_code": "0xA3F9B2C1",
+      "momoTx": "MM001",
+      "createdAt": "2026-09-07T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "draw_id": 1,
+      "user_id": 2,
+      "count": 5,
+      "amount_XAF": 500,
+      "amount_Oziki": 5000,
+      "hex_code": "0xB4C0D3E2",
+      "momoTx": "MM002",
+      "createdAt": "2026-09-07T11:00:00Z"
+    },
+    {
+      "id": 3,
+      "draw_id": 2,
+      "user_id": 1,
+      "count": 3,
+      "amount_XAF": 4500,
+      "amount_Oziki": 45000,
+      "hex_code": "0xC5D1E4F3",
+      "momoTx": "MM003",
+      "createdAt": "2026-09-06T14:00:00Z"
+    },
+    {
+      "id": 4,
+      "draw_id": 2,
+      "user_id": 3,
+      "count": 5,
+      "amount_XAF": 7500,
+      "amount_Oziki": 75000,
+      "hex_code": "0xD6E2F5A4",
+      "momoTx": "MM004",
+      "createdAt": "2026-09-06T15:00:00Z"
+    },
+    {
+      "id": 5,
+      "draw_id": 3,
+      "user_id": 3,
+      "count": 4,
+      "amount_XAF": 4600,
+      "amount_Oziki": 46000,
+      "hex_code": "0xE7F3A6B5",
+      "momoTx": "MM005",
+      "createdAt": "2026-08-30T09:00:00Z"
+    },
+    {
+      "id": 6,
+      "draw_id": 3,
+      "user_id": 5,
+      "count": 2,
+      "amount_XAF": 2300,
+      "amount_Oziki": 23000,
+      "hex_code": "0xF8A4B7C6",
+      "momoTx": "MM006",
+      "createdAt": "2026-08-31T10:00:00Z"
+    },
+    {
+      "id": 7,
+      "draw_id": 4,
+      "user_id": 1,
+      "count": 2,
+      "amount_XAF": 100,
+      "amount_Oziki": 1000,
+      "hex_code": "0x0597733E",
+      "momoTx": "MM1788785180817",
+      "createdAt": "2026-09-07T12:46:20.817Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "type": "buy_oziki",
+      "amount": 50000,
+      "momoTx": "MM0001",
+      "status": "completed",
+      "createdAt": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "type": "buy_oziki",
+      "amount": 30000,
+      "momoTx": "MM0002",
+      "status": "completed",
+      "createdAt": "2026-09-02T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "type": "buy_ticket",
+      "amount": 200,
+      "momoTx": "MM001",
+      "status": "completed",
+      "createdAt": "2026-09-07T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "user_id": 3,
+      "type": "buy_oziki",
+      "amount": 100000,
+      "momoTx": "MM0003",
+      "status": "completed",
+      "createdAt": "2026-09-03T10:00:00Z"
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "type": "buy_ticket",
+      "amount": 1000,
+      "momoTx": "MM1788785180817",
+      "status": "completed",
+      "createdAt": "2026-09-07T12:46:20.817Z"
+    }
+  ],
+  "wallets": [
+    {
+      "user_id": 1,
+      "balance": 50000
+    },
+    {
+      "user_id": 2,
+      "balance": 25000
+    },
+    {
+      "user_id": 3,
+      "balance": 100000
+    },
+    {
+      "user_id": 4,
+      "balance": 15000
+    },
+    {
+      "user_id": 5,
+      "balance": 75000
+    }
+  ],
+  "winners": [
+    {
+      "draw_id": 3,
+      "user_id": 3,
+      "lot": "TV Samsung 32 pouces",
+      "paidAt": "2026-09-05T18:30:00Z"
+    }
+  ]
+}
