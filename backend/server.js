@@ -4,7 +4,7 @@ const path = require('path');
 const crypto = require('crypto');
 const url = require('url');
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const DB_PATH = path.join(__dirname, 'db.json');
 
 // ============================================
@@ -303,6 +303,11 @@ async function handleRequest(req, res) {
     // --- GET WINNERS ---
     if (pathname === '/api/winners' && method === 'GET') {
       return sendJSON(res, 200, db.winners);
+    }
+
+    // --- HEALTH ---
+    if (pathname === '/api/health' && method === 'GET') {
+      return sendJSON(res, 200, { status: 'ok', service: 'winu', version: '1.0.0' });
     }
 
     // --- DEFAULT: 404 ---
