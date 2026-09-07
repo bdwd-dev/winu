@@ -13,8 +13,9 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
-        changeOrigin: true
+        target: 'https://winu-backend-ijtp.onrender.com',
+        changeOrigin: true,
+        secure: true
       }
     }
   }
